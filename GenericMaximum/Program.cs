@@ -7,18 +7,29 @@
             Console.WriteLine("Generic Maximum program!!!");
 
             //UC1
+            //Console.WriteLine("Find Maximum of 3 float numbers");
+            //int input;
+            //int[] intArray = new int[3];
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Enter {0} number", i + 1);
+            //    input = int.Parse(Console.ReadLine());
+            //    intArray[i] = input;
+            //}
+            //IntMax3.PrintMax(intArray);
+
+
+            //UC2
             Console.WriteLine("Find Maximum of 3 float numbers");
-            int input;
-            int[] intArray = new int[3];
+            float input;
+            float[] floatArray = new float[3];
             for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine("Enter {0} number", i + 1);
-                input = int.Parse(Console.ReadLine());
-                intArray[i] = input;
+                input = float.Parse(Console.ReadLine());
+                floatArray[i] = input;
             }
-            IntMax3.PrintMax(intArray);
-
-
+            MaximumOfFloat.PrintMax(floatArray);
 
         }
     }
