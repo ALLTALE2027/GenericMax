@@ -33,16 +33,24 @@
 
 
             // UC3
-            Console.WriteLine("Find Maximum of String");
-            string input;
-            string[] stringArray = new string[3];
-            for (int i = 0; i < 3; i++)
-            {
-                Console.WriteLine("Enter {0} string", i + 1);
-                input = Console.ReadLine();
-                stringArray[i] = input;
-            }
-            MaximumOf3String.PrintMax(stringArray);
+            //Console.WriteLine("Find Maximum of String");
+            //string input;
+            //string[] stringArray = new string[3];
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Enter {0} string", i + 1);
+            //    input = Console.ReadLine();
+            //    stringArray[i] = input;
+            //}
+            //MaximumOf3String.PrintMax(stringArray);
+
+
+            //UC4
+            MaxNormal.PrintMax(23, 45, 68,1,30);
+            MaxNormal.PrintMax(2.6f, 20.3f, 0.5f, 4.5f);
+            MaxNormal.PrintMax("Mango", "Banana", "pomegranate","grapes");
+
+
 
 
 
