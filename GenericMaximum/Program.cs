@@ -46,9 +46,14 @@
 
 
             //UC4
-            MaxNormal.PrintMax(23, 45, 68,1,30);
-            MaxNormal.PrintMax(2.6f, 20.3f, 0.5f, 4.5f);
-            MaxNormal.PrintMax("Mango", "Banana", "pomegranate","grapes");
+            //MaxNormal.PrintMax(23, 45, 68,1,30);
+            //MaxNormal.PrintMax(2.6f, 20.3f, 0.5f, 4.5f);
+            //MaxNormal.PrintMax("Mango", "Banana", "pomegranate","grapes");
+
+            //UC5
+            MaxGenericMethod.FidMax(23,412,56,99);
+            MaxGenericMethod.FidMax("Apple", "Banana", "Mango", "pomegranate");
+            MaxGenericMethod.FidMax(1.2f, 20.5f, 0.5f,7.5f);
 
 
 
